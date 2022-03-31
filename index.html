@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Roman 600 aC</title>
+    <base href="/" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="visor">
+        <span id="value" class="value-area">0</span>
+      </div>
+      <div class="btns">
+        <button class="btn operator" onclick="enterValue('+','op')">+</button>
+        <button class="btn operator" onclick="enterValue('&minus;','op')">&minus;</button>
+        <button class="btn operator" onclick="enterValue('&times;','op')">&times;</button>
+        <button class="btn operator" onclick="enterValue('&divide;','op')">&divide;</button>
+        <button class="btn I" onclick="enterValue('I','num')">I</button>
+        <button class="btn V" onclick="enterValue('V','num')">V</button>
+        <button class="btn X" onclick="enterValue('X','num')">X</button>
+        <button class="btn L" onclick="enterValue('L','num')">L</button>
+        <button class="btn C" onclick="enterValue('C','num')">C</button>
+        <button class="btn D" onclick="enterValue('D','num')">D</button>
+        <button class="btn M" onclick="enterValue('M','num')">M</button>
+        <button class="btn operator igual" onclick="enterValue('=','op')">=</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
